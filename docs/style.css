@@ -99,3 +99,37 @@ h1.animated-name {
 .social-icons a:hover {
   color: #00bfff;
 }
+
+body.portfolio-page {
+  background-image: url("backgrounds/portfolio.jpg");
+}
+
+.container.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.profile img {
+  width: 200px;
+  border-radius: 10px;
+  border: 4px solid #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.resume {
+  flex: 1;
+  color: #fff;
+  text-align: left;
+}
+
+.resume h3 {
+  margin-top: 1.5rem;
+  color: #00bfff;
+}
+
+.resume ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
