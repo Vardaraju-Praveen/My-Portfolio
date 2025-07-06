@@ -5,17 +5,50 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="services.html">My Services</a>
-    <a href="portfolio.html" class="active">My Portfolio</a>
-  </nav>
-  <div class="container">
-    <h1>My Resume</h1>
-    <p>Click below to view or download my latest resume:</p>
-    <a class="btn" href="resume.pdf" target="_blank">📄 View My Resume</a>
-    <p><em>(I update this weekly. Last updated: [manually update date])</em></p>
+<body class="portfolio-page">
+  <div class="overlay">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">My Services</a>
+      <a href="portfolio.html" class="active">My Portfolio</a>
+    </nav>
+
+    <div class="container portfolio">
+      <div class="profile">
+        <img src="images/profile.jpg" alt="My Profile Photo" />
+      </div>
+
+      <div class="resume">
+        <h2>Your Name</h2>
+        <p><strong>Cloud & DevOps Engineer | 4+ Years Experience</strong></p>
+
+        <h3>Summary</h3>
+        <p>Experienced engineer in cloud, automation, infrastructure as code, and DevOps culture.</p>
+
+        <h3>Skills</h3>
+        <ul>
+          <li>AWS, Azure, Docker, Kubernetes, Terraform, Ansible</li>
+          <li>Python, Bash, Git, Jenkins, GitHub Actions</li>
+          <li>SQL, Power BI, Tableau</li>
+        </ul>
+
+        <h3>Experience</h3>
+        <p><strong>Associate Software Engineer – Manasha Tech (Jan 2025 – Present)</strong></p>
+        <ul>
+          <li>Worked on cloud automation and DevOps tooling</li>
+          <li>Built CI/CD pipelines using Jenkins and GitHub Actions</li>
+        </ul>
+
+        <p><strong>Web Developer – Diecent (Nov 2017 – Mar 2023)</strong></p>
+        <ul>
+          <li>Built responsive websites using HTML, CSS, JS, Bootstrap</li>
+          <li>Wrote SQL queries and built dashboards</li>
+        </ul>
+
+        <h3>Education</h3>
+        <p>M.Tech in Technology – Graduating 2025</p>
+      </div>
+    </div>
   </div>
 </body>
 </html>
