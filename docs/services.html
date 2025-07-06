@@ -4,21 +4,40 @@
   <meta charset="UTF-8" />
   <title>My Services</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
-<body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="services.html" class="active">My Services</a>
-    <a href="portfolio.html">My Portfolio</a>
-  </nav>
-  <div class="container">
-    <h1>My Services</h1>
-    <ul>
-      <li>🚀 Cloud Infrastructure Design – AWS, Azure</li>
-      <li>⚙️ DevOps Automation – Docker, Kubernetes, Terraform, Ansible</li>
-      <li>📊 Data Analytics – SQL, Tableau, Power BI</li>
-      <li>🔐 CI/CD & Secure Deployments – Jenkins, GitHub Actions</li>
-    </ul>
+<body class="services-page">
+  <div class="overlay">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html" class="active">My Services</a>
+      <a href="portfolio.html">My Portfolio</a>
+    </nav>
+
+    <div class="container">
+      <h1>My Services</h1>
+      <ul class="services-list">
+        <li>🚀 Cloud Infrastructure – AWS, Azure</li>
+        <li>⚙️ DevOps Automation – Docker, Kubernetes, Terraform</li>
+        <li>📈 CI/CD Pipelines – GitHub Actions, Jenkins, Ansible</li>
+        <li>📊 Data Analytics – SQL, Tableau, Power BI</li>
+        <li>🔐 Secure Deployments – Secrets Management, OAuth, JWT</li>
+      </ul>
+    </div>
+
+    <div class="container contact">
+      <h2>Contact Me</h2>
+      <p>📧 Email: your.email@example.com</p>
+
+      <div class="social-icons">
+        <a href="https://linkedin.com/in/yourusername" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://instagram.com/yourusername" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
   </div>
 </body>
 </html>
